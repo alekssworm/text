@@ -3,13 +3,13 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.sentiment import SentimentIntensityAnalyzer
 from collections import Counter
 
-# Download NLTK resources
+# «агрузка NLTK ресурсов дл€ английского €зыка
 nltk.download('punkt')
 nltk.download('vader_lexicon')
 
-def read_text(file_path):
+def read_text(file_path, encoding='latin-1'):
     try:
-        with open(file_path, 'r', encoding='utf-8') as file:
+        with open(file_path, 'r', encoding=encoding) as file:
             text = file.read()
         return text
     except FileNotFoundError:
@@ -44,4 +44,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

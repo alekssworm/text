@@ -24,7 +24,7 @@
     <Compile Include="text.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Kostetsky Anatoly. I want litati! %28in Ukrainian%29.txt" />
+    <Content Include="Deas_thief-takers_apprentice_2_Warlocks_shadow_RuLit_Net.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
